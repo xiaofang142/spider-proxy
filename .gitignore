@@ -1,0 +1,79 @@
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.dart_tool/
+build/
+pubspec.lock
+
+# Android
+.idea/
+.gradle/
+android/.gradle/
+android/.idea/
+android/app/.gitignore
+android/local.properties
+android/gradlew
+android/gradlew.bat
+
+# iOS
+code/ios/Pods/
+code/ios/Runner.xcworkspace/
+code/ios/Flutter/Flutter.podspec
+code/ios/Flutter/App.framework/
+code/ios/Flutter/Flutter.framework/
+
+# Xcode
+*.xcworkspace
+!*.xcworkspace (shared)
+*.pbxuser
+!*.pbxuser (shared)
+*.mode1v3
+!*.mode1v3 (shared)
+*.mode2v3
+!*.mode2v3 (shared)
+*.perspectivev3
+!*.perspectivev3 (shared)
+*.profile
+!*.profile (shared)
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Android Studio
+/out/
+
+# Mac
+.DS_Store
+**/DS_Store
+
+# Windows
+Thumbs.db
+
+# Backup files
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Build outputs
+*/build/
+*/out/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+
+# Flutter Mac binary
+flutter_macos_*.zip
